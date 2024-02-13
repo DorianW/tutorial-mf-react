@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
 
-const ProductCard = React.lazy(() => import("product/ProductCard"))
+const Products = React.lazy(() => import("product/ProductRecommendations"))
 
 const App = () => (
 	<div className="mt-10 text-3xl mx-auto max-w-6xl">
@@ -11,7 +11,7 @@ const App = () => (
 		<div>Language: TypeScript</div>
 		<div>CSS: Tailwind</div>
 		<div>
-			<ProductCard/>
+			<Products/>
 		</div>
 	</div>
 )

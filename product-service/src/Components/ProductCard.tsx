@@ -1,10 +1,7 @@
 import React from "react";
+import {Product} from "../Types/Product";
 
-type Props = {
-	name?: string;
-}
-
-export default function ProductCard({name = 'Unknown'}: Props) {
+export default function ProductCard({name = 'Unknown'}: Product) {
 	return (
 		<div>
 			{name}

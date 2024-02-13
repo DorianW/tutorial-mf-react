@@ -1,7 +1,7 @@
 ///<reference types="react" />
 
-declare module "product/ProductCard" {
-	const CounterAppOne: React.ComponentType;
+declare module "product/ProductRecommendations" {
+	const ProductRecommendations: React.ComponentType;
 
-	export default CounterAppOne;
+	export default ProductRecommendations;
 }

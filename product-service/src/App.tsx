@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-
+import ProductRecommendations from "./Components/ProductRecommendations";
 import './index.scss'
 
 const App = () => (
@@ -9,6 +9,7 @@ const App = () => (
 		<div>Framework: react</div>
 		<div>Language: TypeScript</div>
 		<div>CSS: Tailwind</div>
+		<ProductRecommendations/>
 	</div>
 )
 const rootElement = document.getElementById('app')
